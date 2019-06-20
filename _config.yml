@@ -1,0 +1,42 @@
+title: KP DevDiary
+email: kpodufalski@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Witaj na moim blogu, a raczej pamiętniku, czy nawet brudnopisie - po prostu miejscu, w którym staram się regularnie
+  odnotowywać swoje postępy.
+permalink: ':title/'
+baseurl: "/kpdevdiary" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Author settings
+author: Kamil Podufalski # add your name
+author-pic: kamil-pic.jpg
+about-author: Nazywam się Kamil Podufalski, jakiś czas temu zaciekawiły mnie technologie webowe, a dosłownie chwilę temu postanowiłem, że będę notował swoje kroki w ich poznawaniu. Rozgość się!
+# Contact links
+email: kpodufalski@gmail.com
+website: cmnq.github.io/portfolio
+linkedin: kamil-podufalski-9b8837173/# Add your Linkedin handle
+github: cmnq # Add your Github handle
+
+# Newsletter
+mailchimp: # Add your MailChimp form identifier.
+
+# Disqus
+discus_identifier: mr-brown # Add your discus identifier
+
+# Tracker
+analytics: # Google Analytics
+
+# Paginate
+paginate: 6
+paginate_path: /page:num/
+
+# Build settings
+markdown: kramdown
+
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-sitemap
+
+include: [_pages]
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock", "package-lock.json", "assets/css/sass/"]
